@@ -30,6 +30,7 @@ def getcluster() -> "Cluster":
     try:
         return __cluster.get()
     except LookupError:
+
         return None
 
 
